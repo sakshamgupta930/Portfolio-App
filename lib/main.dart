@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
             image: DecorationImage(
-          image: AssetImage("images/guitar.jpg"),
+          image: AssetImage("images/new.jpg"),
           fit: BoxFit.cover,
         )),
         child: Padding(
@@ -24,7 +24,7 @@ class Home extends StatelessWidget {
               Row(
                 children: <Widget>[
                   CircleAvatar(
-                      radius: 55,
+                      radius: 50,
                       backgroundImage: AssetImage("images/saksham.jpg")),
                   SizedBox(width: 20.0),
                   Column(
